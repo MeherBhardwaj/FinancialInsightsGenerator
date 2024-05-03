@@ -1,0 +1,14 @@
+pypdf
+transformers
+einops
+accelerate
+langchain
+bitsandbytes
+sentence_transformers
+llama_index
+llama-index-llms-huggingface
+llama-index-embeddings-langchain
+sec-edgar-downloader
+Flask==3.0.0
+flask-ngrok
+pyngrok==7.1.2
