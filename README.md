@@ -2,7 +2,7 @@
 
 The financial insights generator, is a simple app that involves the use of **Retrieval Augmented Generation.** It enables the user to select a company from the dropdown list available on the homepage, and submit it. Once submitted, the application will download all the SEC 10-K filings of that company, since 1995. This data will then be provided to Llama LLM which will then produce insights based on this data. 
 For this project we primarily focus on four areas - The cash flow of the company in the latest year, the profit margins and return ratios, potential risks faced by the company, and its future outlook.
-While further insights like revenue patterns and description of the products and services offered by the company can also be generated, It is believed that the above mentioned four areas would cover a good amount of information for a user that may be inclined to invest in the company.
+While further insights like revenue patterns and description of the products and services offered by the company can also be generated, It is believed that the above mentioned four areas would cover a good amount of information for a user that may be inclined towards investing in the company.
 ## Installation
 1) The app can be executed entirely on Google Colab based on the python notebook provided, However if the on premise infrastructure has better specifications, It is strongly advised to run the app on the local machine. This would reduce the execution time depending on how high the GPU power is and thus would generate insights much faster.
 2) For on-premise / local machine execution, the dependencies mentioned in the **requirements.txt** document must be installed.
